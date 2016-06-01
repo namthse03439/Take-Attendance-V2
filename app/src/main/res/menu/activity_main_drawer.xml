@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Training" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_takeAttendance"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Take Attendace" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Report" />
+    </group>
+
+    <item android:title="Attendance History">
+        <menu>
+            <item
+                android:id="@+id/nav_reportByTime"
+                android:icon="@drawable/ic_menu_share"
+                android:title="By Time" />
+            <item
+                android:id="@+id/nav_reportBySubject"
+                android:icon="@drawable/ic_menu_send"
+                android:title="By Subject" />
+        </menu>
+    </item>
+
+</menu>
